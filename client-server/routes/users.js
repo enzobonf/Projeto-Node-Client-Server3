@@ -5,7 +5,7 @@ var router = express.Router();
 
 // Creates a JSON client
 var client = restify.createJsonClient({
-  url: 'http://10.0.0.4:4000'
+  url: 'http://191.232.234.68:80'
 });
 
 
