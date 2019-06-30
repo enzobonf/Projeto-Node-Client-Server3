@@ -11,6 +11,6 @@ app.use(expressValidator());
 
 consign().include('routes').include('utils').into(app);
 
-app.listen(80, '10.0.0.6', ()=>{
+app.listen(80, '', ()=>{
     console.log('servidor rodando!');
 });
